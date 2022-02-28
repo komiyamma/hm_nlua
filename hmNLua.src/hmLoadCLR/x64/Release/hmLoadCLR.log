@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中間ディレクトリ (x64\Release\) に別のプロジェクト (hmLoadCLR.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+     ライブラリ G:\repogitory\hidemaru-net\win-hidemaru-app\hm_loadclr\hmLoadCLR.src\x64\Release\hmLN.lib とオブジェクト G:\repogitory\hidemaru-net\win-hidemaru-app\hm_loadclr\hmLoadCLR.src\x64\Release\hmLN.exp を作成中
+  コード生成しています。
+  コード生成が終了しました。
+  hmLoadCLR.vcxproj -> G:\repogitory\hidemaru-net\win-hidemaru-app\hm_loadclr\hmLoadCLR.src\x64\Release\hmLN.dll
