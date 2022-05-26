@@ -79,6 +79,7 @@
     <Compile Include="hmLmStaticLib\hmLmHidemaruExplorerPane.cs" />
     <Compile Include="hmLmStaticLib\hmLmHidemaruFile.cs" />
     <Compile Include="hmLmStaticLib\hmLmHidemaruMacro.cs" />
+    <Compile Include="hmLmStaticLib\HmOriginalDecodeFunc.cs" />
     <Compile Include="hmLmStaticLib\HmOriginalEncodeFunc.cs" />
     <Compile Include="hmLmStaticLib\HmOriginalEncodeMap.cs" />
     <Compile Include="hmLmStaticLib\hmLmHidemaruOutputPane.cs" />

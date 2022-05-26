@@ -620,6 +620,31 @@ Class Neo.IronLua.LuaTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
   Events:
     System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
   Methods:
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetItemProperties(String[]): PrivateScope, Public, HideBySig
+    GetItemProperty(String): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Object): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Object): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Object, Object): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Object[]): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Object[], Object): PrivateScope, Public, HideBySig, SpecialName
+    get_ArrayList(): PrivateScope, Public, HideBySig, SpecialName
+    get_Members(): PrivateScope, Public, HideBySig, SpecialName
+    get_Values(): PrivateScope, Public, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_MetaTable(): PrivateScope, Public, HideBySig, SpecialName
+    set_MetaTable(LuaTable): PrivateScope, Public, HideBySig, SpecialName
+    concat(LuaTable, String(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    insert(LuaTable, Object): PrivateScope, Public, Static, HideBySig
+    insert(LuaTable, Object, Object): PrivateScope, Public, Static, HideBySig
+    move(LuaTable, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    move(LuaTable, Int32, Int32, Int32, LuaTable): PrivateScope, Public, Static, HideBySig
+    pack(Object[]): PrivateScope, Public, Static, HideBySig
+    pack(T[]): PrivateScope, Public, Static, HideBySig
+    remove(LuaTable): PrivateScope, Public, Static, HideBySig
     remove(LuaTable, Int32): PrivateScope, Public, Static, HideBySig
     sort(LuaTable, Object(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
     unpack(LuaTable): PrivateScope, Public, Static, HideBySig
@@ -648,31 +673,6 @@ Class Neo.IronLua.LuaTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
     op_BitwiseOr(LuaTable, Object): PrivateScope, Public, Static, HideBySig, SpecialName
     op_ExclusiveOr(LuaTable, Object): PrivateScope, Public, Static, HideBySig, SpecialName
     op_OnesComplement(LuaTable): PrivateScope, Public, Static, HideBySig, SpecialName
-    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
-    GetItemProperties(String[]): PrivateScope, Public, HideBySig
-    GetItemProperty(String): PrivateScope, Public, HideBySig
-    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
-    set_Item(Int32, Object): PrivateScope, Public, HideBySig, SpecialName
-    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
-    set_Item(String, Object): PrivateScope, Public, HideBySig, SpecialName
-    get_Item(Object): PrivateScope, Public, HideBySig, SpecialName
-    set_Item(Object, Object): PrivateScope, Public, HideBySig, SpecialName
-    get_Item(Object[]): PrivateScope, Public, HideBySig, SpecialName
-    set_Item(Object[], Object): PrivateScope, Public, HideBySig, SpecialName
-    get_ArrayList(): PrivateScope, Public, HideBySig, SpecialName
-    get_Members(): PrivateScope, Public, HideBySig, SpecialName
-    get_Values(): PrivateScope, Public, HideBySig, SpecialName
-    get_Length(): PrivateScope, Public, HideBySig, SpecialName
-    get_MetaTable(): PrivateScope, Public, HideBySig, SpecialName
-    set_MetaTable(LuaTable): PrivateScope, Public, HideBySig, SpecialName
-    concat(LuaTable, String(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
-    insert(LuaTable, Object): PrivateScope, Public, Static, HideBySig
-    insert(LuaTable, Object, Object): PrivateScope, Public, Static, HideBySig
-    move(LuaTable, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
-    move(LuaTable, Int32, Int32, Int32, LuaTable): PrivateScope, Public, Static, HideBySig
-    pack(Object[]): PrivateScope, Public, Static, HideBySig
-    pack(T[]): PrivateScope, Public, Static, HideBySig
-    remove(LuaTable): PrivateScope, Public, Static, HideBySig
     add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
     remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
     Equals(Object): PrivateScope, Public, Virtual, HideBySig
