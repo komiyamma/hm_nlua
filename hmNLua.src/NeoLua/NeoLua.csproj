@@ -139,12 +139,6 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <Target Name="ZipLua" Condition=" '$(Configuration)' == 'Release' ">
-    <CreateItem Include="$(TargetDir)\Neo.Lua.*;$(TargetDir)\de\*">
-      <Output ItemName="ZipFile" TaskParameter="Include" />
-    </CreateItem>
-    <Zip Files="@(ZipFile)" WorkingDirectory="$(TargetDir)" ZipFileName="$(TargetDir)\NeoLua-$(Version).zip" />
-  </Target>
   <Target Name="NuGet" Condition=" '$(Configuration)' == 'Release' ">
     <Exec Command="c:\Projects\Bin\NuGet.exe pack NeoLua.nuspec -OutputDirectory $(TargetDir) -Version $(Version)" />
     <Exec Command="c:\Projects\Bin\NuGet.exe push $(TargetDir)NeoLua.$(Version).nupkg" />
@@ -175,7 +169,5 @@
       <Version Condition="'$(VersionAdd)' == ''">$(AssemblyVersionLine.Remove(0, 32))</Version>
     </PropertyGroup>
     <Message Text="Version: $(Version)" />
-  </Target>
-  <Target Name="AfterBuild" DependsOnTargets="ZipLua;NuGet">
   </Target>
 </Project>
