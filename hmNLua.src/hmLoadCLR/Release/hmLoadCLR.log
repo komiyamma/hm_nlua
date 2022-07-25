@@ -1,9 +1,4 @@
-﻿  hidemaruexe_export.cpp
-  hmLm.cpp
-  string_converter.cpp
-  コードを生成中...
-  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
-     ライブラリ G:\repogitory\hm_nlua\hmNLua.src\Release\hmLN.lib とオブジェクト G:\repogitory\hm_nlua\hmNLua.src\Release\hmLN.exp を作成中
+﻿     ライブラリ G:\repogitory\hm_nlua\hmNLua.src\Release\hmLN.lib とオブジェクト G:\repogitory\hm_nlua\hmNLua.src\Release\hmLN.exp を作成中
   コード生成しています。
   コード生成が終了しました。
   hmLoadCLR.vcxproj -> G:\repogitory\hm_nlua\hmNLua.src\Release\hmLN.dll
